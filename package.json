@@ -1,0 +1,26 @@
+{
+  "name": "vue-webpack",
+  "version": "1.0.0",
+  "description": "vue+webpack框架",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silenceliux/vue-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silenceliux/vue-webpack/issues"
+  },
+  "homepage": "https://github.com/silenceliux/vue-webpack#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-webpack": "^1.5.0",
+    "vinyl-named": "^1.1.0",
+    "vue": "^2.1.10",
+    "vue-loader": "^11.1.0"
+  }
+}
