@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/silenceliux/vue-webpack#readme",
   "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
     "gulp": "^3.9.1",
     "gulp-webpack": "^1.5.0",
     "vinyl-named": "^1.1.0",
