@@ -2,7 +2,7 @@
  * Created by admin on 17-2-22.
  */
 var Vue = require("vue");
-var Game = require("/src/app.vue");
+var Game = require("./app.vue");
 //import Vue from 'vue';
 //import Game from './app.vue';
 var app = new Vue({
@@ -11,4 +11,4 @@ var app = new Vue({
         message: 'Hello world!'
     }
 });
-new Vue({el: '#application', components: {Game}});
+new Vue({el: '#game', components: {Game}});
