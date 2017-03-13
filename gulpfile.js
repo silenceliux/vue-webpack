@@ -8,12 +8,6 @@ gulp.task('js', function() {
         .pipe(webpack(webpackConfig))
         .pipe(gulp.dest('dist/'));
 });
-//gulp.task('vue', function() {
-//    return gulp.src(['src/app.vue'])
-//        .pipe(named())
-//        .pipe(webpack(webpackConfig))
-//        .pipe(gulp.dest('dist/'));
-//});
 gulp.task('dev',
 
     ['js']);

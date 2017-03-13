@@ -1,15 +1,14 @@
 <template>
-    <div>feedsfaeaw</div>
+    <div>{{msg}}</div>
 </template>
-
 <script>
-//export default {
- //   data () {
-  //      return {
-  //          msg: 'Hello vue!'
-  //      }
- //   }
-//}
+export default {
+  data () {
+    return {
+      msg:"hello vue"
+    }
+  }
+}
 </script>
 
 <style>

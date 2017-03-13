@@ -10,8 +10,11 @@ module.exports = {
     module: {
         loaders: [
             { test: /\.vue$/, loader: 'vue-loader'},
-            { test: /\.js$/, loader: 'babel-loader',query:{presets:['es2015']}}
+            { test: /\.js$/, loader: 'babel-loader'}
         ]
+    },
+    babel: {
+        presets: ['es2015']
     },
     //其他解决方案，    root从这里开始查找，extensions自动扩展后缀名
     resolve: {
