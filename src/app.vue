@@ -1,11 +1,18 @@
 <template>
-    <div>{{msg}}</div>
+<div>
+    <div v-for="item in items">{{item.name}}</div>
+    </div>
 </template>
 <script>
 export default {
   data () {
     return {
-      msg:"hello webpack"
+      items:[
+      {name:1},
+      {name:2},
+      {name:3},
+      {name:4},
+      ]
     }
   }
 }
