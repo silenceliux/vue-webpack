@@ -1,19 +1,19 @@
 <template>
     <div class="a">
         <div v-for="item in items">{{item.name}}</div>
-        <bVue></bVue>
+        <bvue></bvue>
     </div>
 
 </template>
 <script>
-import bVue from './b.vue'
+import bvue from './b.vue'
 export default {
     data () {
         return {
             items:[{name:1},{name:2},{name:3},{name:4}]
         }
     },
-    components: {bVue}
+    components: {bvue}
 }
 </script>
 

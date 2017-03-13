@@ -2,11 +2,12 @@
  * Created by admin on 17-2-22.
  */
 import Vue from 'vue'
-import Game from '../components/a.vue'
-var app = new Vue({
+import avue from '../components/a.vue'
+new Vue({
     el: '#app',
     data: {
         message: 'Hello world!'
-    }
+    },
+    components: {avue}
 });
-new Vue({el: '#game', components: {Game}});
+//new Vue({el: '#vue', components: {avue}});
