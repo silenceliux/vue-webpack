@@ -10,3 +10,4 @@ var app = new Vue({
     }
 });
 new Vue({el: '#game', components: {Game}});
+console.log("webpack");

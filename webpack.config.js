@@ -3,8 +3,9 @@
  */
 var path = require('path');
 module.exports = {
+    watch:true,
     output: {
-        path: '/dist/',
+        path: path.join(__dirname,'dist'),
         filename: '[name].js'
     },
     module: {
@@ -20,7 +21,7 @@ module.exports = {
     resolve: {
         root:[path.join(__dirname,'src')],
         alias: {//别名
-            'vue$': 'vue/dist/vue.js'
+            'vue': 'vue/dist/vue.js'
         }
     }
 }

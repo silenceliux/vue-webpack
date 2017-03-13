@@ -8,6 +8,11 @@ gulp.task('js', function() {
         .pipe(webpack(webpackConfig))
         .pipe(gulp.dest('dist/'));
 });
-gulp.task('dev',
-
-    ['js']);
+//gulp.task('watch:js',function(){
+//    gulp.watch('src/*.js',function(){
+//        return gulp.src(['src/app.js'])
+//            .pipe(named())
+//            .pipe(webpack(webpackConfig))
+//            .pipe(gulp.dest('dist/'));
+//    })
+//});
