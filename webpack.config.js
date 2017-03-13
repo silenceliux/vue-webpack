@@ -19,7 +19,7 @@ module.exports = {
     },
     //其他解决方案，    root从这里开始查找，extensions自动扩展后缀名
     resolve: {
-        root:[path.join(__dirname,'src')],
+        root:[path.join(__dirname)],
         alias: {//别名
             'vue': 'vue/dist/vue.js'
         }
