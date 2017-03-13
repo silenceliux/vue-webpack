@@ -1,25 +1,24 @@
 <template>
-    <div>
+    <div class="a">
         <div v-for="item in items">{{item.name}}</div>
+        <bVue></bVue>
     </div>
+
 </template>
 <script>
+import bVue from './b.vue'
 export default {
     data () {
         return {
-            items:[
-                {name:1},
-                {name:2},
-                {name:3},
-                {name:4},
-            ]
+            items:[{name:1},{name:2},{name:3},{name:4}]
         }
-    }
+    },
+    components: {bVue}
 }
 </script>
 
 <style>
-html{
-    background: blue;
+.a{
+    color: blue;
 }
 </style>
