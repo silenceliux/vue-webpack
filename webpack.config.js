@@ -14,6 +14,7 @@ module.exports = {
             { test: /\.js$/, loader: 'babel-loader'}
         ]
     },
+    //这个要写在外面，因为.vue文件也要进行编译
     babel: {
         presets: ['es2015']
     },

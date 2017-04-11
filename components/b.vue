@@ -2,6 +2,7 @@
     <div class="b">{{msg}}</div>
 </template>
 <script>
+import {detail} from '../config/list.js'
 export default{
     data () {
         return {

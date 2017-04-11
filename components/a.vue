@@ -7,11 +7,10 @@
 </template>
 <script>
 import bvue from './b.vue'
+import {list} from '../config/list.js'
 export default {
     data () {
-        return {
-            items:[{name:1},{name:2},{name:3},{name:4}]
-        }
+        return list
     },
     components: {bvue}
 }
