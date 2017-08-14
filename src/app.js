@@ -16,7 +16,7 @@ new Vue({
 });
 const router = new VueRouter({
     routes: [
-        { path: '/foo', component: router1 },
+        { path: '/', component: router1 },
         { path: '/bar', component:  router2 }
     ]
 });
