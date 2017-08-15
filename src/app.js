@@ -23,3 +23,14 @@ const router = new VueRouter({
  new Vue({
     router
 }).$mount('#routerDiv');
+
+var msg = "hello 1";
+var apps = new Vue({
+    el: '#apps',
+    data: {
+        message: msg
+    }
+});
+setTimeout(function(){
+    apps.message = "hello 2";
+},1000)
