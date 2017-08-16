@@ -32,5 +32,5 @@ var apps = new Vue({
     }
 });
 setTimeout(function(){
-    apps.message = "hello 2";
-},1000)
+    apps.message = "hello 3";
+},1000);

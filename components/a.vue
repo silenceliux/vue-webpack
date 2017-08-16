@@ -1,7 +1,8 @@
 <template>
     <div class="a">
         <div v-for="item in list.items">{{item.name}}</div>
-        <bvue :propsData = "propsMsg"></bvue>
+        <bvue :propsData = "propsMsg" @transferUser="getUser"></bvue>
+        <div>{{user}}</div>
     </div>
 
 </template>
@@ -12,7 +13,13 @@ export default {
     data () {
         return {
             list:list,
-            propsMsg:"这是向子组件传的数据"
+            propsMsg:"这是向子组件传的数据",
+            user:""
+        }
+    },
+    methods:{
+        getUser(msg){
+            this.user = msg;
         }
     },
     components: {bvue}

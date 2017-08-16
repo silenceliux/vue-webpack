@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="b">{{msg}}</div>
+        <div class="b" v-on:click="getUser">{{msg}}</div>
         <div>{{propsData}}</div>
     </div>
 
@@ -13,7 +13,11 @@ export default{
             msg:"这是b部分这是b部分这是b部分这是b部分这是b部分"
         }
     },
-
+    methods:{
+      getUser:function(){
+          this.$emit("transferUser","this userName")
+      }
+    },
     props:['propsData']
 }
 
