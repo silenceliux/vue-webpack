@@ -16,12 +16,13 @@ new Vue({
 });
 const router = new VueRouter({
     routes: [
-        { path: '/', component: router1 },
-        { path: '/bar', component:  router2 }
+        { path: '/:id', component: router1 },
+        { path: '/bar/:id', component:  router2 }
     ]
 });
  new Vue({
-    router
+    router:router
+
 }).$mount('#routerDiv');
 
 var msg = "hello 1";

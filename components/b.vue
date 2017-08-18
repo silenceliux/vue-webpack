@@ -18,6 +18,7 @@ export default{
           this.$emit("transferUser","this userName")
       }
     },
+
     props:['propsData']
 }
 
